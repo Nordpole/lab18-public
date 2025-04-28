@@ -1,0 +1,26 @@
+# qna-percona.yaml - Sample Q&A dataset for InstructLab
+# Each entry represents one question-answer pair with optional context.
+- id: "1"
+  question: "What is the latest version of Percona operator"
+  answer: "2.6.0"
+  context: |
+   Latest percona Operator at the moment of training
+
+- id: "2"
+  question: "Can I install percona Operator on OpenShift?"
+  answer: "Yes"
+  context: |
+    Percona Installation type
+
+- id: "3"
+  question: "Should I use separate namespace for Percona Operator? "
+  answer: |
+    Percona Operator and DB Cluster must be installed on individual namespaces, connected to the individual products in order to minimise bluct radius
+  context: |
+    Deployment namespace separation for Percona Operator
+
+- id: "4"
+  question: "What tool is available for Percona PG DB backup and restore"
+  answer: "pgBackRest"
+  context: |
+    pgBackRest provide backup and restore functionality for full or incremental backup and restore to the point in time
