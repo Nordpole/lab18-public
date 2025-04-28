@@ -72,4 +72,4 @@ document:
   repo: https://github.com/your_org/percona-operator-qna.git
   commit: 1f748830ca60d8fa5b7102141b421a1cbab149fe
   patterns:
-    - qna-percona-completed.yaml
+    - qna-percona-combined.yaml
