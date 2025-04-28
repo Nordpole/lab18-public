@@ -1,0 +1,38 @@
+version: 1
+domain: percona_operator
+created_by: your_team_name
+document_outline: Q&A dataset for Percona Operator on OpenShift and PostgreSQL backup/restore
+
+seed_examples:
+  - context: |
+      Latest Percona Operator at the moment of training
+    questions_and_answers:
+      - question: What is the latest version of Percona Operator?
+        answer: Sure—at the time of our data (April 2025), it’s 2.6.0. Would you like steps  to install it?
+
+  - context: |
+      In  accordance  with  the  agreed  practice,  each  product  will  have  an  individual  namespace  where Percona Operator and PG Cluster will be created,
+      as recommended by Percona. Naturally, at least ten  installations  (5  operator  +  5  cluster)  should  not  be  performed  manually,  but  should
+      be automated, as suggested by RH GitOps practice.
+    questions_and_answers:
+      - question: Can I install Percona Operator on OpenShift?
+        answer:  Yes! You can install via the Operator Lifecycle Manager (OLM) or by applying the YAML manifest directly.
+
+  - context: |
+      The PostgreSQL Cluster (with default postgres DB) is not a separate entity, but the foundation of a large fleet of Red Hat products installed on OCP customer cluster(s). For every product in the PG cluster we must initiate DB , talored for teh product deployment.
+    questions_and_answers:
+      - question: Should I use a separate namespace for Percona Operator?
+        answer: |
+          Percona Operator and each DB cluster must be installed in their own namespaces to isolate resources and minimize blast radius.
+
+  - context: |
+      pgBackRest provides backup and restore functionality for Percona PostgreSQL
+    questions_and_answers:
+      - question: What tool is available for Percona PostgreSQL backup and restore?
+        answer: pgBackRest provide backup and restore functionality for full or incremental backup and restore to the point in time
+
+document:
+  repo: https://github.com/your_org/percona-operator-qna.git
+  commit: <your-commit-hash>
+  patterns:
+    - qna-percona.yaml

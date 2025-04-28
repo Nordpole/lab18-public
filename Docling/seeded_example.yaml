@@ -1,0 +1,50 @@
+# seeded_examples.yaml
+# Examples for instruction-tuning or few-shot prompting
+
+- prompt: |-
+      ### Instruction:
+      Summarize the following text in one sentence.
+      
+      ### Input:
+      “The Percona Operator for PostgreSQL automates deployment, scaling, and management of PostgreSQL clusters.”
+      
+      ### Response:
+  completion: >-
+      The Percona Operator simplifies PostgreSQL cluster deployment, scaling, and management.
+
+- prompt: |-
+      ### Instruction:
+      Provide a step-by-step guide to install the Percona Operator on OpenShift.
+      
+      ### Response:
+  completion: |-
+      1. Log into your OpenShift cluster with `oc login`.
+      2. Create a namespace: `oc new-project percona-operator`.
+      3. Install the Operator via OLM or YAML:
+         - OLM: `oc apply -f https://operatorhub.io/install/percona-operator.yaml`
+         - YAML: download the manifest and `oc apply -f percona-operator.yaml`.
+      4. Verify installation: `oc get pods -n percona-operator`.
+      5. Proceed to create a Percona cluster CR.
+
+- prompt: |-
+      ### Instruction:
+      Answer the user’s question based on Percona best practices.
+      
+      ### Input:
+      "Should I use separate namespaces for operator and database clusters?"
+      
+      ### Response:
+  completion: >-
+      Yes. It’s best to install the Percona Operator and each database cluster in
+      separate namespaces to isolate resources and minimize blast radius.
+
+- prompt: |-
+      ### Instruction:
+      When asked for the latest version of Percona Operator, respond with the version and a brief note.
+      
+      ### Input:
+      "What is the latest version of Percona Operator?"
+      
+      ### Response:
+  completion: >-
+      The latest Percona Operator version is 2.6.0 (as of April 2025).
