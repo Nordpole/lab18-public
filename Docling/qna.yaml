@@ -1,0 +1,25 @@
+seed_examples:
+  - context: |-
+      backups: trackLatestRestorableTime: true pgbackrest: image: percona/percona-
+      postgresql-operator:2.6.0-ppg16.8-pgbackrest2.54.2 # Run a manual full backup
+      on-demand (you can omit this if you only want # scheduled backups) manual:
+      repoName: repo1 options: - --type=full # Define your repository and backup
+      schedule repos: - name: repo1 schedules: # run a full backup every Saturday at
+      midnight full: "0 0 * * 6" volume: volumeClaimSpec: accessModes: - ReadWriteOnce
+      resources: requests: storage: 1Gi # The 'repoHost' stanza (below) controls where
+      the backup-job Pods mount this volume. repoHost: affinity: podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution: - weight: 1 podAffinityTerm:
+      labelSelector:
+    questions_and_answers:
+      - question: What is the image used for the pgbackrest?
+        answer: percona/percona-postgresql-operator:2.6.0-ppg16.8-pgbackrest2.54.2
+      - question: What is the schedule for the full backups?
+        answer: A full backup is scheduled to run every Saturday at midnight.
+      - question: |-
+          Based on the provided context, why is it recommended to use a separate volume
+          for backups?
+        answer: |-
+          A separate volume for backups is recommended to ensure that the backup data is
+          stored separately from the main data, providing an additional layer of data
+          protection and ensuring that the backup process does not impact the performance
+          of the main database.

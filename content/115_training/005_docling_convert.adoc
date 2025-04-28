@@ -6,3 +6,6 @@ image::images/Screenshot From 2025-04-24 18-40-24.png[]
 
 
 image::images/Screenshot From 2025-04-24 18-34-48.png[]
+
+
+http://ec2-3-138-247-156.us-east-2.compute.amazonaws.com:8000/

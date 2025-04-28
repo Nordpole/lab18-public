@@ -9,6 +9,10 @@ seed_examples:
     questions_and_answers:
       - question: What is the latest version of Percona Operator?
         answer: Sure—at the time of our data (April 2025), it’s 2.6.0. Would you like steps  to install it?
+      - question: Can I use different versions , controlled by the same Operator
+        answer: Yes, percona operator supports wide range of versions , starting from 10 to 16
+      - question: Can I use different versions for DB and supporting tools, like BackUp
+        answer: Yes, its possible, but better to harmonize the versions in one setup
 
   - context: |
       In  accordance  with  the  agreed  practice,  each  product  will  have  an  individual  namespace  where Percona Operator and PG Cluster will be created,
@@ -17,6 +21,8 @@ seed_examples:
     questions_and_answers:
       - question: Can I install Percona Operator on OpenShift?
         answer:  Yes! You can install via the Operator Lifecycle Manager (OLM) or by applying the YAML manifest directly.
+      - question: Can I use ArgoCD for installation Percona Operator on OpenShift?
+        answer: Yes! Thats the best approach to have it automated under ArgoCD project with overlays
 
   - context: |
       The PostgreSQL Cluster (with default postgres DB) is not a separate entity, but the foundation of a large fleet of Red Hat products installed on OCP customer cluster(s). For every product in the PG cluster we must initiate DB , talored for teh product deployment.
@@ -24,15 +30,26 @@ seed_examples:
       - question: Should I use a separate namespace for Percona Operator?
         answer: |
           Percona Operator and each DB cluster must be installed in their own namespaces to isolate resources and minimize blast radius.
+      - question: Can Percona Operator install extensions for selected Database?
+        answer: |
+          Percona Operator has special section in CR yaml for internal and external extensions
+      - question: Can Percona Operator provide the secret with all Database connection details?
+        answer: |
+          Percona Operator has special section in CR yaml for internal and external extensions    
 
   - context: |
       pgBackRest provides backup and restore functionality for Percona PostgreSQL
     questions_and_answers:
       - question: What tool is available for Percona PostgreSQL backup and restore?
         answer: pgBackRest provide backup and restore functionality for full or incremental backup and restore to the point in time
+      - question: Can I have my backup protected using encryption ?
+        answer: pgBackRest provide encryption for backup using encryption key, configured in corresponding CR
+      - question: Can I have my backup stored on external S3 volume ?
+        answer: pgBackRest can store it on external S3 storage, if location and credentials provided
+
 
 document:
   repo: https://github.com/your_org/percona-operator-qna.git
-  commit: <your-commit-hash>
+  commit: 1f748830ca60d8fa5b7102141b421a1cbab149fe
   patterns:
-    - qna-percona.yaml
+    - qna-percona-completed.yaml
