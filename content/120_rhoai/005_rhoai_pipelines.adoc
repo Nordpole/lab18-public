@@ -1,0 +1,6 @@
+ifdef::imagesdir[:imagesdir: content/120_rhoai]
+
+= RHOAI ML Pipelines API Server
+
+https://catalog.redhat.com/software/containers/rhoai/odh-ml-pipelines-api-server-rhel8/659803c36d4c2276c31a7907
+

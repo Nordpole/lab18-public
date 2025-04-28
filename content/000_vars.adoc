@@ -1,0 +1,9 @@
+////
+Purpose
+-------
+In the "Base" directory, this section is a placeholder which is to be extended
+by vars specific to the product or products being delivered.
+
+If the product directory is missing a corresponding "vars.adoc", vars are not
+used for it or can be found in the default vars/redhat-vars.adoc
+////

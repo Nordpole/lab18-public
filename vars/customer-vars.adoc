@@ -1,0 +1,29 @@
+// --------------------------------
+// Document Information
+// The customer-vars.adoc is meant for customer specific information such as the name,
+// short name, and gss information
+// --------------------------------
+:toc-title: Table of Contents
+
+:client: Classified
+:customer: Classified
+:cust: Classified
+
+:domain: Classified
+
+
+:site1: Classified
+:site2: TBN
+
+:projectmanager: Classified
+
+// these are required for the support chapter.
+:custgss: TODO_customer_portal_account_name
+:nogss: TODO_customer_portal_account_number
+
+:lbvendor: F5
+:lbmodel: BIG-IP LM
+
+// --------------------------------
+// Other Vars
+// --------------------------------

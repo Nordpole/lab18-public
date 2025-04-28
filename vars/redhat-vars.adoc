@@ -1,0 +1,38 @@
+// --------------------------------
+// Various params for products
+// Please improve where needed!
+// --------------------------------
+:rh: Red Hat
+:rhservices: {rh} Services
+
+:rhel: {rh} Enterprise Linux
+
+:idm: Identity Management
+:rhidm: {rh} {idm}
+
+:ocp: OpenShift Container Platform
+:rhocp: {rh} {ocp}
+
+:ocpp: {ocp} Plus
+:rhocpp: {rh} {ocpp}
+
+:ocs: OpenShift Container Storage
+:rhocs: {rh} {ocs}
+
+:cos: CoreOS
+:rhcos: {rh} CoreOS
+
+:ans: Ansible
+:pb: Ansible Playbook
+:twr: {rh} {ans} Tower
+
+:vm: Virtual Machine
+
+:amqb: AMQ Artemis broker
+:rhamqb: {rh} {amqb}
+
+:mq: MQ
+:ibmmq: IBM MQ
+
+:jboss: JBoss
+:rhjboss: {rh} {jboss}

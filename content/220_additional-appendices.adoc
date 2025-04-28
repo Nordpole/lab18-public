@@ -1,0 +1,25 @@
+////
+Purpose
+-------
+Add additional appendix includes here or optionally put them directly in line.
+
+Sample
+------
+
+[appendix]
+== My Additional Appendix 2
+//include::my_additional_appendix_2.adoc[]
+
+[appendix]
+== My Additional Appendix 3
+My inline appendix
+////
+
+[appendix]
+== RH/OCP References
+
+1. DG Operator Guide:  https://access.redhat.com/documentation/en-us/red_hat_data_grid/8.3/html-single/data_grid_operator_guide/index
+2. DG SSO on OCP: https://developers.redhat.com/blog/2021/04/23/integrate-red-hat-data-grid-and-red-hats-single-sign-on-technology-on-red-hat-openshift
+3. DG Services: https://developers.redhat.com/articles/2021/06/08/create-and-manage-red-hat-data-grid-services-hybrid-cloud
+4. DG Operator: https://developers.redhat.com/articles/2024/01/17/how-install-and-upgrade-data-grid-8-operator
+5. AMQ HA on OCP: https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/high-availability-for-broker-on-ocp_broker-ocp

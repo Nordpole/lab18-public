@@ -1,0 +1,10 @@
+Testbed project for knowledge gaining end experiments on the following:
+
+* AI Fundamentals  (https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D62410986[Internal])
+* Red Hat AI Products Overview (https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D64172254[Internal])
+* Red Hat OpenShift AI Technical Overview (https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D59655121[Internal])
+* Red Hat Enterprise Linux AI Technical Overview (https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D71225574[Internal])
+* Introduction to Large Language Models (https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D61705036[Internal])
+* Practical Approach to RHEL AI Series (https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinklp%3D72982935[Internal])
+* Advanced InstructLab Workshop - Train a LLM for the Parasol Insurance Company (https://catalog.demo.redhat.com/catalog?item=babylon-catalog-prod/rhdp.instructlab-summitconnect-rhel.prod&utm_source=webapp&utm_medium=share-link[Internal])
+* Red Hat's Rapid AI Evolution: From InstructLab to Real-World Impact with Shadowbot and Composer AI (https://cdnapisec.kaltura.com/p/2300461/sp/230046100/embedIframeJs/uiconf_id/45633731/partner_id/2300461?iframeembed=true&playerId=kaltura_player_1595514787&entry_id=1_yfu752p5[Internal])

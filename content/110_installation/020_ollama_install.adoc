@@ -1,0 +1,28 @@
+ifdef::imagesdir[:imagesdir: content/110_installation]
+
+= Installing Ollama
+
+image::images/image-2025-04-26-14-16-09-425.png[]
+Install with one command:
+
+----
+curl -fsSL https://ollama.com/install.sh | sh
+----
+
+image::images/install_ollama.png[]
+
+Pull Ollama Images using:
+
+image::images/image-2025-04-26-14-27-21-080.png[]
+
+----
+ollama pull llama2
+----
+
+image::images/image-2025-04-26-14-27-37-650.png[]
+
+----
+ollama pull granite3.2:2b
+----
+
+image::images/image-2025-04-26-14-31-47-931.png[]

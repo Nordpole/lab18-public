@@ -1,0 +1,118 @@
+Understanding and alignment of common vocabulary is critical to any engagement’s success. The following table is a reference guide of acronyms/words/phrases and their definitions/meanings that appear in this document.
+
+.General Terminology
+[cols="3,8",options=header]
+|===
+|Term |Definition
+
+|OCP
+|{ocp}
+
+|OCS
+|{ocs}
+
+|ODF
+|OpenShift Data Foundation
+
+|NFS
+|Network File System
+
+|PV
+|Persistent Volume
+
+|PVC
+|Persistent Volume Claim
+
+|RWO
+|Read Write Once
+
+|RWX
+|Read Write Many
+
+|OB
+|Object Bucket
+
+|OBC
+|Object Bucket Claim
+
+|IPI
+|Instaler Provisioned Infrastructure
+
+|UPI
+|User Provisioned Infrastructure
+
+|SDN
+|Software-Defined Network
+
+|RHEL
+|{rh} Enterprise Linux
+
+|AD
+|Active Directory
+
+|DNS
+|Domain Name System
+
+|DHCP
+|Dynamic Host Configuration Protocol
+
+|FQDN
+|Fully Qualified Domain Name
+
+|VIP
+|Virtual IP address
+
+|VLAN
+|Virtual LAN is a networking virtualisation technology
+
+|VM
+|Virtual machine
+
+|OVS
+|Open vSwitch
+
+|CRD
+|Custom Resource Definition
+
+|LLM training process
+|* Data Collection and Preparation
+
+* Tokenization
+
+* Pre-training
+
+* Fine-tuning
+
+* Evaluation and Testing
+
+|Neural Net
+|* Neurons (nodes)
+
+* Layers
+
+* Connections
+
+* Activation functions
+
+* Forward propagation
+
+* Backpropagation
+
+|LLM embedding
+|In the context of large language models (LLMs), an embedding is a dense, fixed-length vector representation of text (words, sentences, paragraphs, or even documents) that captures the semantic meaning of that text in a high-dimensional space.
+
+|LLM
+|An LLM (Large Language Model) is an advanced artificial intelligence system trained on vast amounts of text data to understand and generate human language.
+At its core, an LLM exists primarily as a massive collection of weight parameters organized in a neural network architecture.
+
+|LLM MCP
+|In the context of Large Language Models (LLMs), MCP usually stands for Model Control Plane. It’s an architectural layer or service that centralizes the management, governance, and operationalization of machine-learning and LLM assets across an organization.
+
+
+|Upstream
+|Refers toward source-code origin end of open source software development process and related open source community collaboration, documentation, and testing.
+
+|Downstream
+|Refers toward “productized” deployable, supported artifact (signed binary) end of open source software development process and related contracted errata, event-based support artifacts, product engineering, and product-specific documentation.
+
+|===

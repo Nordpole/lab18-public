@@ -1,0 +1,8 @@
+ifdef::imagesdir[:imagesdir: content/115_training]
+
+= Docling file conversion
+
+image::images/Screenshot From 2025-04-24 18-40-24.png[]
+
+
+image::images/Screenshot From 2025-04-24 18-34-48.png[]

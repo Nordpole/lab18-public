@@ -1,0 +1,58 @@
+// --------------------------------
+// Document Information
+// This document-vars.adoc file contains mainly static/routine variables for the CER
+// It should not contain customer specific variables related to the customer name and related information
+// --------------------------------
+:toc-title: Table of Contents
+
+:subject: RH AI predictive and generative implementation
+// docstatus - indicates where in the lifecycle CER is (draft, in-progress, finish)
+:docstatus: draft
+:version: {docstatus} 0.1
+
+ifeval::[ "{docstatus}" == "draft"]
+:page-background-image: image:draft.png[]
+endif::[]
+
+
+//:revnumber: {gitdate}
+:revnumber: {version}
+
+// --------------------------------
+// Other Vars
+// --------------------------------
+:ocpv: 4.14
+:rhelv: RHEL 8
+
+:amqv: 7.10
+
+:vmw: VMware
+:vsp: vSphere
+:vc: vCenter
+
+:brm: Bare metal
+:upi: User-provisioned
+:ipi: Installer-provisioned
+:abi: Agent-based
+
+:ms: pass:quotes[`MachineSet`]
+:mss: pass:quotes[`MachineSets`]
+
+:pod_network: 10.128.0.0/14      //replace by cluster
+:service_network: 172.30.0.0/16
+:host_network: 10.240.240.0/23
+
+//=service
+:cluster_network: 10.128.0.0/14
+//=host
+:machine_network: 192.168.127.0/16
+
+//DNS settings
+:main_domain: nesa.pl
+:base_domain: nesa.io
+
+:hub1domain_cluster: Katowice-hub
+:hub2domain_cluster: Warszawa-hub
+
+:site1domain_cluster: Katowice-managed
+:site2domain_cluster: Warszawa-managed

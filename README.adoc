@@ -1,0 +1,86 @@
+include::vars/render-vars.adoc[]
+include::vars/document-vars.adoc[]
+include::vars/redhat-vars.adoc[]
+include::vars/customer-vars.adoc[]
+include::content/000_vars.adoc[]
+include::locale/attributes.adoc[]
+
+= {subject}: {customer} - {description}
+
+<<<
+toc::[]
+
+<<<
+include::content/legal-approved/preface.adoc[leveloffset=+1]
+
+<<<
+== Project Information
+
+=== Document Conventions
+include::content/030_document-conventions.adoc[leveloffset=+3]
+
+
+=== Terminology
+include::content/055_terminology.adoc[leveloffset=+3]
+
+=== Overview
+
+
+// ==== Existing network Architecture Analysis
+// include::content/110_current_architecture.adoc[leveloffset=+3]
+
+==== Executive Summary
+include::content/100_executive_summary.adoc[leveloffset=+3]
+
+<<<
+== Architecture Overview
+<<<
+include::content/105_overview/015_overview.adoc[leveloffset=+2]
+
+<<<
+== Architecture Design
+<<<
+include::content/110_design/005_design.adoc[leveloffset=+2]
+
+
+
+
+<<<
+= RHEL AI
+<<<
+== Installation
+<<<
+include::content/110_installation/005_installation.adoc[leveloffset=+2]
+
+include::content/110_installation/010_model_setup.adoc[leveloffset=+2]
+
+include::content/110_installation/015_tensorflow_install.adoc[leveloffset=+2]
+
+== Model Training
+
+include::content/115_training/005_docling_convert.adoc[leveloffset=+2]
+
+
+
+// <<<
+// == OCP DG Operation manual
+// <<<
+// include::content/OCP/110_manual/015_ocp_dg_manual.adoc[leveloffset=+2]
+
+<<<
+== OCP Operation manual
+<<<
+include::content/OCP/110_manual/005_ops_manual.adoc[leveloffset=+2]
+
+
+= RHO AI
+
+// It is expected that anyone using additional-appendices.adoc will include one or more [appendix] blocks
+<<<
+[appendix]
+include::content/220_additional-appendices.adoc[leveloffset=+1]
+
+<<<
+// [appendix]
+// == Relevant Links
+// include::content/230_relevant-links.adoc[leveloffset=+2]

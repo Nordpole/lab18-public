@@ -1,0 +1,79 @@
+include::vars/render-vars.adoc[]
+include::vars/document-vars.adoc[]
+include::vars/redhat-vars.adoc[]
+include::vars/customer-vars.adoc[]
+include::content/000_vars.adoc[]
+include::locale/attributes.adoc[]
+
+= {subject}: {customer} - {description}
+
+<<<
+toc::[]
+
+<<<
+include::content/legal-approved/preface.adoc[leveloffset=+1]
+
+<<<
+== Project Information
+
+=== Originator
+include::content/010_originator.adoc[leveloffset=+3]
+
+=== Owner
+include::content/020_owner.adoc[leveloffset=+3]
+
+=== Document Conventions
+include::content/030_document-conventions.adoc[leveloffset=+3]
+
+=== Additional Copies
+include::content/040_additional-copies.adoc[leveloffset=+3]
+
+=== Participants of the Engagement
+
+==== Red Hat
+include::content/050_red-hat-participants.adoc[leveloffset=+4]
+
+=== Terminology
+include::content/055_terminology.adoc[leveloffset=+3]
+
+=== Overview
+
+==== About {customer}
+include::content/080_about-the-customer.adoc[leveloffset=+3]
+
+// ==== Existing network Architecture Analysis
+// include::content/110_current_architecture.adoc[leveloffset=+3]
+
+==== Executive Summary
+include::content/100_executive_summary.adoc[leveloffset=+3]
+
+<<<
+== Architecture Overview
+include::content/105_overview/010_ocp.adoc[leveloffset=+2]
+<<<
+include::content/105_overview/015_overview.adoc[leveloffset=+2]
+
+<<<
+== Architecture Design
+//include::content/110_design/005_installation_method.adoc[leveloffset=+2]
+<<<
+include::content/110_design/010_design.adoc[leveloffset=+2]
+
+
+<<<
+== Installation {brm}
+include::content/115_installation/005_installation.adoc[leveloffset=+2]
+
+
+
+
+
+// It is expected that anyone using additional-appendices.adoc will include one or more [appendix] blocks
+<<<
+[appendix]
+include::content/220_additional-appendices.adoc[leveloffset=+1]
+
+<<<
+// [appendix]
+// == Relevant Links
+// include::content/230_relevant-links.adoc[leveloffset=+2]
