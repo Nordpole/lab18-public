@@ -69,7 +69,8 @@ seed_examples:
 
 
 document:
-  repo: https://github.com/your_org/percona-operator-qna.git
-  commit: 1f748830ca60d8fa5b7102141b421a1cbab149fe
+  repo: https://github.com/Nordpole/lab18-public.git
+  commit: 855d2a8a8bb68ce201f84be81527af073891ee9d
   patterns:
-    - qna-percona-combined.yaml
+    - Docling/file-percona.md
+
