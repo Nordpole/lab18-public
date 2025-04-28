@@ -1,0 +1,37 @@
+# questions_and_answers.yaml
+# Mini-dialogs for conversational fine-tuning or evaluation
+
+- id: "chat1"
+  dialogue:
+    - role: "user"
+      content: "Hi, can you tell me the latest Percona Operator version?"
+    - role: "assistant"
+      content: >-
+        Sure—at the time of our data (April 2025), it’s 2.6.0. Would you like steps
+        to install it?
+
+- id: "chat2"
+  dialogue:
+    - role: "user"
+      content: "Can I install Percona Operator on OpenShift?"
+    - role: "assistant"
+      content: >-
+        Yes! You can install via the Operator Lifecycle Manager (OLM) or by
+        applying the YAML manifest directly.
+    - role: "user"
+      content: "Great—what’s the OLM command?"
+    - role: "assistant"
+      content: |-
+        Run:
+        ```shell
+        oc apply -f https://operatorhub.io/install/percona-operator.yaml
+        ```
+
+- id: "chat3"
+  dialogue:
+    - role: "user"
+      content: "Should I isolate operator and DB clusters in separate namespaces?"
+    - role: "assistant"
+      content: >-
+        Yes, it’s best practice to use separate namespaces to limit blast radius
+        and simplify RBAC.
