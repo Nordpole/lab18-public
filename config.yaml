@@ -20,12 +20,15 @@ generate:
   prompt_file: prompt.txt
   seed_file: seed_tasks.json
 
-# iLab taxonomy config should live at the top level
+  # These two fields are required by your iLab version
+  taxonomy_path: taxonomy
+  taxonomy_base: origin/main
+
+# Root-level declaration of all taxonomies
 taxonomies:
   percona_operator:
     path: taxonomy/percona_operator
     schema: qna
-taxonomy_base_ref: origin/main   # ensure this key matches your iLab version
 
 serve:
   gpu_layers: -1
