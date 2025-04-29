@@ -7,8 +7,10 @@ chat:
   session: null
   vi_mode: false
   visible_overflow: true
+
 general:
   log_level: INFO
+
 generate:
   chunk_word_count: 1000
   model: models/merlinite-7b-lab-Q4_K_M.gguf
@@ -17,8 +19,14 @@ generate:
   output_dir: generated
   prompt_file: prompt.txt
   seed_file: seed_tasks.json
-  taxonomy_base: origin/main
-  taxonomy_path: taxonomy
+
+# iLab taxonomy config should live at the top level
+taxonomies:
+  percona_operator:
+    path: taxonomy/percona_operator
+    schema: qna
+taxonomy_base_ref: origin/main   # ensure this key matches your iLab version
+
 serve:
   gpu_layers: -1
   host_port: 127.0.0.1:8000
